@@ -9,10 +9,21 @@ header {
     padding: 20px;
 }
 .container {
-    max-width: 800px;
+    max-width: 980px;
     margin: 0 auto;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(51, 42, 42, 0.1);
+}
+.left-column {
+    float: left;
+    width: 65%;
+    padding: 20px;
+}
+
+.right-column {
+    float: right;
+    width: 35%;
+    padding: 20px;
 }
 footer {
     background-color: #00FFFF;
