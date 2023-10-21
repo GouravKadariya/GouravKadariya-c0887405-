@@ -53,3 +53,21 @@ body {
     align-items: center;
     min-height: 200px;
 }
+
+@media only screen and (max-width: 720px) {
+    .main-content{
+        grid-template-columns: 1fr;
+    }
+
+    img{
+        display: block;
+    }
+
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

@@ -55,3 +55,14 @@ img{
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (max-width: 720px) {
+    .main-content{
+        grid-template-columns: 1fr;
+    }
+
+    img{
+        display: block;
+    }
+
+}
