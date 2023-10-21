@@ -8,6 +8,12 @@ header {
     color: #fff;
     padding: 20px;
 }
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(51, 42, 42, 0.1);
+}
 footer {
     background-color: #00FFFF;
     color: #fff;
