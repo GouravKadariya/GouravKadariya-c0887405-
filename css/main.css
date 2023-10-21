@@ -1,38 +1,57 @@
-body {
-    font-family: Verdana, sans-serif;
-    background-color: #00FFFF;
-    margin: 0;
-}
-header {
-    background-color: #4b50cd;
-    color: #fff;
-    padding: 20px;
-}
-.container {
-    max-width: 980px;
-    margin: 0 auto;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(51, 42, 42, 0.1);
-}
-.left-column {
-    float: left;
-    width: 65%;
-    padding: 20px;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
-.right-column {
-    float: right;
-    width: 35%;
-    padding: 20px;
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-  }
-footer {
-    background-color: #00FFFF;
-    color: #fff;
-    padding: 20px;
+
+.header{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.header-content{
+    text-align: center;
+}
+
+.header-sub-title{
+    color: gainsboro;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+}
+
+img{
+    float: left;
+}
+
+.info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    padding: 20px 0px;
+    background-color: rgb(199, 186, 186);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
